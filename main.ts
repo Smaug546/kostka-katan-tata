@@ -1,6 +1,6 @@
 input.onGesture(Gesture.Shake, function () {
-    music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
     liczba_oczek = randint(1, 36)
+    music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
 })
 let liczba_oczek = 0
 liczba_oczek = 0
