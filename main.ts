@@ -1,8 +1,10 @@
 input.onGesture(Gesture.Shake, function () {
+    music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
     liczba_oczek = randint(1, 36)
 })
 let liczba_oczek = 0
 liczba_oczek = 0
+music.setVolume(255)
 while (liczba_oczek == 0) {
     basic.showString("potrzasnij")
 }
